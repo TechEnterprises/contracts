@@ -21,7 +21,7 @@ contract Owned {
 }
 
 contract DappReg is Owned {
-	// id       - shared to be the same accross all contracts for a specific dapp (including GithuHint for the repo)
+	// id       - shared to be the same accross all contracts for a specific dapp (including GithubHint for the repo)
 	// owner    - that guy
 	// meta     - meta information for the dapp
 	struct Dapp {
